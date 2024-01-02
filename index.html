@@ -37,18 +37,31 @@
     </header>
    
 
-    <script>
-        const body = document.getElementById('backgroundBody');
-        const images = ["pe.jpg", "a.jpg", "b.jpg","ff.jpg","c.jpg","boy.jpg","d.jpg","e.jpg","liz.jpg"];
-        let currentIndex = 0;
+ <!-- Add this at the end of your HTML body -->
+<footer>
+    &copy; 2024 Petit Learning Center. All rights reserved.
+    <div class="footer-icons">
+        <a href="https://facebook.com" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="mailto:your.email@gmail.com"><i class="far fa-envelope"></i></a>
+    </div>
+</footer>
 
-        function changeBackground() {
-            body.style.backgroundImage = `url(${images[currentIndex]})`;
-            currentIndex = (currentIndex + 1) % images.length;
-        }
+<div class="feedback-tab" onclick="openFeedbackForm()">Feedback</div>
 
-        setInterval(changeBackground, 5000);
-    </script>
-</body>
+<!-- Your existing script for changing background images -->
+<script>
+    const body = document.getElementById('backgroundBody');
+    const images = ["pe.jpg", "a.jpg", "b.jpg", "ff.jpg", "c.jpg", "boy.jpg", "d.jpg", "e.jpg", "liz.jpg"];
+    let currentIndex = 0;
+
+    function changeBackground() {
+        body.style.backgroundImage = `url(${images[currentIndex]})`;
+        currentIndex = (currentIndex + 1) % images.length;
+    }
+
+    setInterval(changeBackground, 5000);
+</script>
+
 
 </html>
