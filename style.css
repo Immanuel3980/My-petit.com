@@ -1,14 +1,19 @@
 
 .body {
-   
     background-image: url("pe.jpg");
     background-repeat: no-repeat;
-    background-position: right bottom; /* Move the background image to the bottom right */
+    background-position: right bottom;
     background-attachment: fixed;
-    background-size: auto 80%; /* Adjust the size of the background image */
-    margin: 0; /* Reset margin to remove default bodyt body margin */
+    background-size: auto 80%;
+    margin: 0;
 }
 
+@media only screen and (max-width: 600px) {
+    .body {
+        background-size: cover; /* Use 'cover' to maintain the aspect ratio and cover the entire viewport */
+        background-position: center; /* Center the background image on smaller screens */
+    }
+}
 
 h1 {
     margin: 0; /* Remove default margin to ensure alignment */
