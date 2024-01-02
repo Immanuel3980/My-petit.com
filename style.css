@@ -6,15 +6,6 @@
     background-attachment: fixed;
     background-size: auto 80%;
     margin: 0;
-}
-
-@media only screen and (max-width: 600px) {
-    /* Adjust background size and position for smaller screens */
-    .body {
-        background-size: cover;
-        background-position: center;
-    }
-}
 
 /* Styles for header */
 h1 {
