@@ -29,10 +29,6 @@ h1 {
     vertical-align: middle;
 }
 
-/* Styles for forms and paragraphs */
-form {
-    text-align: left;
-}
 
 .parag {
     color: #4d2600;
@@ -40,20 +36,7 @@ form {
     /* Add more styles as needed */
 }
 
-/* Styles for login button */
-form input[type="button"] {
-    background-color: #4d2600;
-    color: #ffffff;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 16px;
-}
 
-form input[type="button"]:hover {
-    background-color: #63412b;
-}
 
 /* Styles for navigation */
 nav {
@@ -122,34 +105,3 @@ nav a:hover {
     display: block;
 }
 
-/* Styles for the footer */
-footer {
-    background-color: #4d2600;
-    color: #ffffff;
-    padding: 20px;
-    text-align: center;
-}
-
-/* Styles for social media icons */
-.footer-icons a {
-    margin: 0 10px;
-    color: #ffffff;
-    font-size: 24px;
-    text-decoration: none;
-}
-
-/* Styles for the feedback tab */
-.feedback-tab {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
-    background-color: #4d2600;
-    color: #ffffff;
-    padding: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.feedback-tab:hover {
-    background-color: #63412b;
-}
